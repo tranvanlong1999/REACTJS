@@ -1,0 +1,32 @@
+.listcontact li {
+    list-style-type: none;
+}
+.listcontact {
+    display: flex;
+    justify-content: space-between;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px 20px 200px;
+    background: linear-gradient(to right, #ffffff 0%, #53cbf1 50%, #ffffff 100%);
+}
+.logoicon {
+    display: flex;
+    flex-direction: column;
+}
+.linkcommon ul li {
+    line-height: 25px;
+    text-align: left;
+}
+.linkcontackphone ul li {
+    list-style-type: none;
+}
+.copyright {
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+.copyright p {
+    padding-top: 10px;
+}

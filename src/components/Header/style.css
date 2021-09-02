@@ -1,0 +1,35 @@
+.container {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.header {
+    min-width: 1050px;
+    display: flex;
+    justify-content: space-between;
+    top: 10px;
+}
+.menu {
+    display: flex;
+}
+.menu li {
+    list-style-type: none;
+    padding-left: 20px;
+}
+.menu li a {
+    color: white;
+}
+.formsearch {
+    padding-top: 10px;
+}
+.formsearch input {
+    background: rgb(255, 255, 255, 0.2);
+    height: 26px;
+    border-radius: 13;
+    font-size: 13;
+    padding-left: 30px;
+    color: #fff;
+}
+.formsearch i {
+    color: white;
+}
